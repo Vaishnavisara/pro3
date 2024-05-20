@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_home_24"
+            android:contentDescription="Home Icon" />
+
+        <TextView
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:text="book my ticket"
+            android:textAlignment="center"
+            android:textColor="#7E7777"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_search_24"
+            android:contentDescription="Search Icon" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/baseline_notifications_active_24"
+            android:contentDescription="Notifications Icon" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/stream"
+                android:layout_width="wrap_content"
+                android:layout_height="278dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/stream"
+                android:contentDescription="Stream Image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/firstMovie"
+                    android:layout_width="0dp"
+                    android:layout_height="201dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/aranmanai"
+                    android:contentDescription="Aranmanai Image" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="295dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ghilli"
+                    android:contentDescription="Ghilli Image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/rathnam"
+                    android:contentDescription="Rathnam Image" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/siren"
+                    android:contentDescription="Siren Image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/rathnam"
+                    android:contentDescription="Rathnam Image" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/siren"
+                    android:contentDescription="Siren Image" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
